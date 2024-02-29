@@ -1,0 +1,190 @@
+@import './variables.scss';
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '~@sweetalert2/theme-bootstrap-4/bootstrap-4.scss';
+@import 'animate.css';
+
+body {
+  overflow-x: hidden;
+  font-family: 'Work Sans';
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.modal-backdrop.show {
+  z-index: 1055 !important;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.swal2-show {
+  animation: fadeIn 0.5s;
+}
+.swal2-hide {
+  animation: fadeOut 0.5s;
+}
+
+.navbar .active {
+  background-color: transparent !important;
+  border-bottom: 2px solid $unopad-primary !important;
+  color: $unopad-primary !important;
+  border-radius: 0px !important;
+}
+
+.pagination .active {
+  .page-link {
+    color: $unopad-primary !important;
+    background-color: $unopad-primary-light !important;
+    border: none;
+  }
+}
+
+.nav-item .active {
+  border: 1px solid $unopad-primary !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  color: $unopad-primary !important;
+  font-family: 'Work Sans' !important;
+  font-weight: 700 !important;
+}
+
+.nav-item {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+}
+
+.nav-item:hover {
+  font-weight: 700 !important;
+}
+
+.nav-item .nav-link {
+  color: $t-body-color;
+  border: 0px;
+}
+
+.page-link {
+  border-radius: 100px !important;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  color: $gray-500;
+  background-color: $gray-300;
+  margin-left: 6px;
+  margin-right: 6px;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3);
+  font-family: 'Work Sans' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 17px !important;
+  line-height: 30px !important;
+}
+.page-link:hover {
+  color: $unopad-primary !important;
+}
+.page-link:focus {
+  color: $unopad-primary !important;
+}
+
+.text-fs-head-xl {
+  font-family: 'Work Sans' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 60px !important;
+  line-height: 74px !important;
+}
+.text-fs-head-lg {
+  font-family: 'Work Sans' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 35px !important;
+  line-height: 41px !important;
+}
+.text-fs-head-md {
+  font-family: 'Work Sans' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 25px !important;
+  line-height: 29px !important;
+}
+.text-fs-head-sm {
+  font-family: 'Work Sans' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 20px !important;
+  line-height: 23px !important;
+}
+.text-fs-head-xs {
+  font-family: 'Work Sans' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+}
+.text-fs-head-xxs {
+  font-family: 'Work Sans' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+}
+.text-fs-body-lg {
+  font-family: 'Work Sans' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+}
+.text-fs-body-md {
+  font-family: 'Work Sans' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 17px !important;
+  line-height: 30px !important;
+}
+.text-fs-body-sm {
+  font-family: 'Work Sans' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 13px !important;
+  line-height: 32px !important;
+}
+.text-fs-tag {
+  font-family: 'Work Sans' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 13px !important;
+  line-height: 15px !important;
+  text-align: center !important;
+  letter-spacing: 0.0309526px !important;
+}
+
+.text-fs-project-name {
+  font-family: 'Rammetto One';
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 17px !important;
+  line-height: 19px !important;
+}
+.text-fs-title-md {
+  font-family: 'Rammetto One';
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 30px !important;
+  line-height: 45px !important;
+  letter-spacing: 0.02em !important;
+}

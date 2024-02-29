@@ -1,0 +1,134 @@
+@import '../../variables.scss';
+.project-img-div{
+
+    height: 149px;
+    background-size: cover;
+}
+// .project-progress-bar{
+//     border-radius: 40px !important;
+//     .progress-bar{
+//         background: $unopad-gradient-vertical;
+//         border-radius: 40px !important;
+//     }
+// }
+
+.card-progress {
+    text-align:center;
+    font-size: large !important;
+    height: 30px !important;
+    
+}
+.card-progress-value {
+    position:absolute;
+    font-weight: 700 !important;
+    text-shadow:1px 1px black;
+}
+.card-progress-bar{
+    background: $unopad-gradient-vertical;
+    
+}
+
+.project-name-div{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.project-icon{
+    border-radius: 50% ;
+    height: 40px;
+    max-width: 40px;
+}
+
+tr:last-child{
+    border-bottom-color:$unopad-primary;
+}
+.ended-logo{
+    color: $unopad-primary;
+    background: rgba(228, 0, 125, 0.18);;
+    border-radius: 27px;
+    height: 18px;
+    width: auto;
+    text-align: center;
+}
+.unopad-icon{
+    height: 16px;
+}
+
+
+.card-project-name{
+    width: 300px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+
+@media only screen and (max-width: 1400px) {
+
+    .card-project-name{
+        width: 250px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+
+    .card-project-name{
+        width: 190px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+
+    .card-project-name{
+        width: 220px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+    }
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+
+    .card-project-name{
+        width: 400px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+
+    .card-project-name{
+        width: 60vw;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+    }
+  }

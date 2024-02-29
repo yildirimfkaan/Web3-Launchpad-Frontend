@@ -1,0 +1,160 @@
+@import "../../variables.scss";
+
+.navbar-balance-text {
+  max-width: 100px;
+}
+
+.banner-design{
+
+  background: url('Banner.png');
+  background-size: cover;
+  height: 1200px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1450px) {
+  .banner-design{
+
+    background: url('Banner.png');
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -100px;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+  .banner-design{
+
+    background: url('Banner.png');
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -100px;
+}
+}
+@media only screen and (max-width: 992px) {
+  .banner-design{
+    background: url('Banner-tablet.png');
+    background-size: cover;
+    height: 850px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -250px;
+}
+}
+@media only screen and (max-width: 768px) {
+  .banner-design{
+
+    background: url('Banner.png');
+    background-size: cover;
+    height: 930px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -200px;
+}
+
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-design{
+    position:absolute;
+    margin: 50vh auto 0;
+    background-color: $unopad-tertiary;
+    border-radius: 10px;
+    width: 85%;
+    padding: 10px;
+
+  }
+}
+
+
+
+.banner-design-launchpad{
+
+  background: url('Banner4.png');
+  background-size: cover;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-design-profile{
+
+  background: url('Banner2.png');
+  background-size: cover;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-public{
+  
+  .public-nav{
+    color: $unopad-tertiary !important;
+  }
+  .public-nav.disabled{
+    color: $unopad-dark-light !important;
+  }
+}
+
+.navbar-wallet-account-container {
+  width: 350px;
+}
+@media only screen and (max-width: 991px) {
+  .banner-public{
+  
+    .public-nav{
+      color: white !important ;
+    }
+    .public-nav.disabled{
+      color: $unopad-dark-light !important;
+    }
+  }
+}
+
+
+.navbar-account-button {
+  width: 250px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgb(0 0 0 / 25%) !important;
+}
+
+.navbar-account-button:hover {
+  width: 250px;
+  background-color: $gray-300 !important;
+  cursor: pointer;
+}
+
+.navbar-balance-button {
+  width: 100px;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar-balance-button {
+    display: none !important;
+  }
+  .navbar-wallet-account-container {
+    width: 250px !important;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .navbar-balance-button {
+    display: none !important;
+  }
+  .navbar-wallet-account-container {
+    width: 200px !important;
+  }
+  .navbar-account-button {
+    width: 200px;
+  }
+}

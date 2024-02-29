@@ -1,0 +1,33 @@
+@import '../../variables.scss';
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+}
+
+.text {
+  width: 50%;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.back-model {
+  background: url('Group74-web.png');
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.home-sales-container{
+    min-height: 1300px;
+    
+}
